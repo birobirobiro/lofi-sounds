@@ -8,6 +8,10 @@
 - Tailwind
 - Vite.js
 
+## Assets and sounds
+
+**[Check this repository](https://github.com/birobirobiro/assets-icons-sounds)**
+
 ## Running locally
 
 1. Clone this repo:
