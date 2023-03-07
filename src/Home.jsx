@@ -1,5 +1,6 @@
 import { Headphones } from "@phosphor-icons/react";
 import { SiTailwindcss, SiVercel, SiReact } from "react-icons/si"
+import Card from "./components/Card";
 
 function Home() {
   return (
@@ -35,41 +36,24 @@ function Home() {
         <section className="mx-auto grid gap-6 md:grid-cols-3 lg:grid-cols-3
         p-10
         " >
-          <div className="hover:cursor-pointer hover:scale-105">
-            <img src="/assets/images/chill-cover.svg" alt="lofi" />
-          </div>
+          <Card imageSrc="/assets/images/chill-cover.svg" imageAlt="lofi" />
 
-          <div className="hover:cursor-pointer hover:scale-105">
-            <img src="/assets/images/forest-cover.svg" alt="forest" />
-          </div>
+          <Card imageSrc="/assets/images/forest-cover.svg" imageAlt="forest" />
 
-          <div className="hover:cursor-pointer hover:scale-105">
-            <img src="/assets/images/library-cover.svg" alt="library" />
-          </div>
+          <Card imageSrc="/assets/images/library-cover.svg" imageAlt="library" />
 
-          <div className="hover:cursor-pointer hover:scale-105">
-            <img src="/assets/images/meditate-cover.svg" alt="meditade" />
-          </div>
+          <Card imageSrc="/assets/images/meditate-cover.svg" imageAlt="night" />
 
-          <div className="hover:cursor-pointer hover:scale-105">
-            <img src="/assets/images/night-cover.svg" alt="night" />
-          </div>
+          <Card imageSrc="/assets/images/night-cover.svg" imageAlt="ocean" />
 
-          <div className="hover:cursor-pointer hover:scale-105">
-            <img src="/assets/images/ocean-cover.svg" alt="ocean" />
-          </div>
+          <Card imageSrc="/assets/images/rain-cover.svg" imageAlt="study" />
 
-          <div className="hover:cursor-pointer hover:scale-105">
-            <img src="/assets/images/rain-cover.svg" alt="rain" />
-          </div>
+          <Card imageSrc="/assets/images/ocean-cover.svg" imageAlt="urban" />
 
-          <div className="hover:cursor-pointer hover:scale-105">
-            <img src="/assets/images/study-cover.svg" alt="study" />
-          </div>
+          <Card imageSrc="/assets/images/study-cover.svg" imageAlt="study" />
 
-          <div className="hover:cursor-pointer hover:scale-105">
-            <img src="/assets/images/urban-cover.svg" alt="urban" />
-          </div>
+          <Card imageSrc="/assets/images/urban-cover.svg" imageAlt="urban" />
+
         </section>
 
         <footer className="h-full pt-20 pb-5 flex justify-center items-center">
