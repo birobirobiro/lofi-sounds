@@ -35,39 +35,39 @@ function Home() {
         <section className="mx-auto grid gap-6 md:grid-cols-3 lg:grid-cols-3
         p-10
         " >
-          <div className="hover:cursor-pointer">
+          <div className="hover:cursor-pointer hover:scale-105">
             <img src="/assets/images/chill-cover.svg" alt="lofi" />
           </div>
 
-          <div className="hover:cursor-pointer">
+          <div className="hover:cursor-pointer hover:scale-105">
             <img src="/assets/images/forest-cover.svg" alt="forest" />
           </div>
 
-          <div className="hover:cursor-pointer">
+          <div className="hover:cursor-pointer hover:scale-105">
             <img src="/assets/images/library-cover.svg" alt="library" />
           </div>
 
-          <div className="hover:cursor-pointer">
+          <div className="hover:cursor-pointer hover:scale-105">
             <img src="/assets/images/meditate-cover.svg" alt="meditade" />
           </div>
 
-          <div className="hover:cursor-pointer">
+          <div className="hover:cursor-pointer hover:scale-105">
             <img src="/assets/images/night-cover.svg" alt="night" />
           </div>
 
-          <div className="hover:cursor-pointer">
+          <div className="hover:cursor-pointer hover:scale-105">
             <img src="/assets/images/ocean-cover.svg" alt="ocean" />
           </div>
 
-          <div className="hover:cursor-pointer">
+          <div className="hover:cursor-pointer hover:scale-105">
             <img src="/assets/images/rain-cover.svg" alt="rain" />
           </div>
 
-          <div className="hover:cursor-pointer">
+          <div className="hover:cursor-pointer hover:scale-105">
             <img src="/assets/images/study-cover.svg" alt="study" />
           </div>
 
-          <div className="hover:cursor-pointer">
+          <div className="hover:cursor-pointer hover:scale-105">
             <img src="/assets/images/urban-cover.svg" alt="urban" />
           </div>
         </section>
