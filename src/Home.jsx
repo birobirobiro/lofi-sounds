@@ -42,7 +42,7 @@ function Home() {
 
           <Card imageSrc="/assets/images/fireplace.jpeg" imageAlt="fireplace" />
 
-          <Card imageSrc="/assets/images/office.jpeg" imageAlt="office" />
+          <Card imageSrc="/assets/images/office.avif" imageAlt="office" />
 
           <Card imageSrc="/assets/images/metro.jpeg" imageAlt="metro" />
 
@@ -50,9 +50,9 @@ function Home() {
 
           <Card imageSrc="/assets/images/rain.jpeg" imageAlt="rain" />
 
-          <Card imageSrc="/assets/images/coffee.jpeg" imageAlt="coffee" />
+          <Card imageSrc="/assets/images/coffee.avif" imageAlt="coffee" />
 
-          <Card imageSrc="/assets/images/urban.jpeg" imageAlt="urban" />
+          <Card imageSrc="/assets/images/city.jpeg" imageAlt="city" />
 
         </section>
 
