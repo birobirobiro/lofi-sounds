@@ -36,23 +36,23 @@ function Home() {
         <section className="mx-auto grid gap-6 md:grid-cols-3 lg:grid-cols-3
         p-10
         " >
-          <Card imageSrc="/assets/images/lofi.jpeg" imageAlt="lofi" />
+          <Card imageSrc="/assets/images/lofi.png" imageAlt="lofi" />
 
-          <Card imageSrc="/assets/images/forest.jpeg" imageAlt="forest" />
+          <Card imageSrc="/assets/images/forest.png" imageAlt="forest" />
 
-          <Card imageSrc="/assets/images/fireplace.jpeg" imageAlt="fireplace" />
+          <Card imageSrc="/assets/images/fireplace.png" imageAlt="fireplace" />
 
-          <Card imageSrc="/assets/images/office.avif" imageAlt="office" />
+          <Card imageSrc="/assets/images/office.png" imageAlt="office" />
 
-          <Card imageSrc="/assets/images/metro.jpeg" imageAlt="metro" />
+          <Card imageSrc="/assets/images/metro.png" imageAlt="metro" />
 
-          <Card imageSrc="/assets/images/beach.jpeg" imageAlt="beach" />
+          <Card imageSrc="/assets/images/beach.png" imageAlt="beach" />
 
-          <Card imageSrc="/assets/images/rain.jpeg" imageAlt="rain" />
+          <Card imageSrc="/assets/images/rain.png" imageAlt="rain" />
 
-          <Card imageSrc="/assets/images/coffee.avif" imageAlt="coffee" />
+          <Card imageSrc="/assets/images/coffee.png" imageAlt="coffee" />
 
-          <Card imageSrc="/assets/images/city.jpeg" imageAlt="city" />
+          <Card imageSrc="/assets/images/city.png" imageAlt="city" />
 
         </section>
 
