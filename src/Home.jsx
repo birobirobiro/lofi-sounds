@@ -46,9 +46,9 @@ function Home() {
 
           <Card imageSrc="/assets/images/night-cover.svg" imageAlt="ocean" />
 
-          <Card imageSrc="/assets/images/rain-cover.svg" imageAlt="study" />
-
           <Card imageSrc="/assets/images/ocean-cover.svg" imageAlt="urban" />
+
+          <Card imageSrc="/assets/images/rain-cover.svg" imageAlt="study" />
 
           <Card imageSrc="/assets/images/study-cover.svg" imageAlt="study" />
 
