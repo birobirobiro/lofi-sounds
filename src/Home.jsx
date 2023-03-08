@@ -1,11 +1,28 @@
 import { Headphones } from "@phosphor-icons/react";
+import { useEffect, useState } from "react";
 import { SiTailwindcss, SiVercel, SiReact } from "react-icons/si"
+// import Lofi from "./components/Card";
 import Card from "./components/Card";
 
 function Home() {
+  const soundFiles = [
+    'lofi1.mp3',
+    'lofi2.mp3',
+    'lofi3.mp3',
+    'lofi4.mp3',
+    'lofi5.mp3',
+    'lofi6.mp3',
+    'lofi7.mp3',
+    'lofi8.mp3',
+  ];
+
+  const randomIndex = Math.floor(Math.random() * soundFiles.length);
+
+  const audioSrc = `assets/lofi-sounds/${soundFiles[randomIndex]}`;
+
   return (
     <div className="flex flex-col">
-      <nav className="flex fixed w-full items-center p-5 justify-between border-slate-200 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10">
+      <nav className="flex fixed w-full items-center p-5 justify-between border-slate-200 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 z-10">
 
         <div className="flex items-center gap-4">
           <a className="flex items-center gap-4" href="#">
@@ -36,23 +53,25 @@ function Home() {
         <section className="mx-auto grid gap-6 md:grid-cols-3 lg:grid-cols-3
         p-10
         " >
-          <Card imageSrc="/assets/images/lofi.png" imageAlt="lofi" />
+          <Card imageSrc="/assets/images/lofi.png" imageAlt="lofi" audioSrc={audioSrc} />
 
-          <Card imageSrc="/assets/images/forest.png" imageAlt="forest" />
+          {/* <Lofi imageSrc="/assets/images/forest.png" imageAlt="forest" audioSrc="/assets/ambient-sounds/forest.mp3" /> */}
 
-          <Card imageSrc="/assets/images/fireplace.png" imageAlt="fireplace" />
+          <Card imageSrc="/assets/images/forest.png" imageAlt="forest" audioSrc="/assets/ambient-sounds/forest.mp3" />
 
-          <Card imageSrc="/assets/images/office.png" imageAlt="office" />
+          <Card imageSrc="/assets/images/fireplace.png" imageAlt="fireplace" audioSrc="/assets/ambient-sounds/campfire.mp3" />
 
-          <Card imageSrc="/assets/images/metro.png" imageAlt="metro" />
+          <Card imageSrc="/assets/images/office.png" imageAlt="office" audioSrc="/assets/ambient-sounds/office.mp3" />
 
-          <Card imageSrc="/assets/images/beach.png" imageAlt="beach" />
+          <Card imageSrc="/assets/images/metro.png" imageAlt="metro" audioSrc="/assets/ambient-sounds/train-station.mp3" />
 
-          <Card imageSrc="/assets/images/rain.png" imageAlt="rain" />
+          <Card imageSrc="/assets/images/beach.png" imageAlt="beach" audioSrc="/assets/ambient-sounds/waves.mp3" />
 
-          <Card imageSrc="/assets/images/coffee.png" imageAlt="coffee" />
+          <Card imageSrc="/assets/images/rain.png" imageAlt="rain" audioSrc="/assets/ambient-sounds/rain.mp3" />
 
-          <Card imageSrc="/assets/images/city.png" imageAlt="city" />
+          <Card imageSrc="/assets/images/coffee.png" imageAlt="coffee" audioSrc="/assets/ambient-sounds/coffee-shop.mp3" />
+
+          <Card imageSrc="/assets/images/city.png" imageAlt="city" audioSrc="/assets/ambient-sounds/city.mp3" />
 
         </section>
 
