@@ -1,7 +1,7 @@
 import { useState } from "react";
 import useSound from "use-sound";
 
-function Lofi(props) {
+function Card(props) {
   const [isClicked, setIsClicked] = useState(
     false
   );
@@ -34,4 +34,4 @@ function Lofi(props) {
   );
 }
 
-export default Lofi;
+export default Card;

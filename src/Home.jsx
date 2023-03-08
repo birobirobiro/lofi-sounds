@@ -55,7 +55,7 @@ function Home() {
         " >
           <Card imageSrc="/assets/images/lofi.png" imageAlt="lofi" audioSrc={audioSrc} />
 
-          {/* <Lofi imageSrc="/assets/images/forest.png" imageAlt="forest" audioSrc="/assets/ambient-sounds/forest.mp3" /> */}
+          {/* <Lofi imageSrc="/assets/images/lofi.png" imageAlt="lofi" audioSrc={audioSrc} /> */}
 
           <Card imageSrc="/assets/images/forest.png" imageAlt="forest" audioSrc="/assets/ambient-sounds/forest.mp3" />
 
