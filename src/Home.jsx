@@ -50,7 +50,7 @@ function Home() {
           </div>
         </header>
 
-        <section className="mx-auto grid grid-cols-2 gap-6 lg:grid-cols-3
+        <section className="mx-auto grid grid-cols-2 gap-5 lg:grid-cols-3
         px-10 py-8
         " >
           <Card imageSrc="/assets/images/lofi.png" imageAlt="lofi" audioSrc={audioSrc} />
