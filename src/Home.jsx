@@ -39,8 +39,8 @@ function Home() {
       </nav>
 
       <div className="flex w-full flex-col mx-auto">
-        <header className="flex font-bold mt-20 lg:mb-10 justify-center text-4xl md:text-5xl lg:text-6xl">
-          <div className="flex gap-4">
+        <header className="flex font-bold mt-20 justify-center text-4xl md:text-5xl lg:text-6xl">
+          <div className="flex gap-2">
             <span className="animate-text1 bg-gradient-to-r from-title-1-start-color-100 via-title-1-middle-color-100 to-title-1-end-color-100 bg-clip-text font-black text-transparent">relax.</span>
 
             <span className="animate-text2 bg-gradient-to-r from-title-2-start-color-200 to-title-2-end-color-200 bg-clip-text font-black text-transparent">chill.</span>
@@ -50,8 +50,8 @@ function Home() {
           </div>
         </header>
 
-        <section className="mx-auto grid gap-6 md:grid-cols-3 lg:grid-cols-3
-        p-10
+        <section className="mx-auto grid grid-cols-2 gap-6 lg:grid-cols-3
+        px-10 py-8
         " >
           <Card imageSrc="/assets/images/lofi.png" imageAlt="lofi" audioSrc={audioSrc} />
 
@@ -61,15 +61,15 @@ function Home() {
 
           <Card imageSrc="/assets/images/fireplace.png" imageAlt="fireplace" audioSrc="/assets/ambient-sounds/campfire.mp3" />
 
-          <Card imageSrc="/assets/images/office.png" imageAlt="office" audioSrc="/assets/ambient-sounds/office.mp3" />
-
-          <Card imageSrc="/assets/images/metro.png" imageAlt="metro" audioSrc="/assets/ambient-sounds/train-station.mp3" />
+          <Card imageSrc="/assets/images/rain.png" imageAlt="rain" audioSrc="/assets/ambient-sounds/rain.mp3" />
 
           <Card imageSrc="/assets/images/beach.png" imageAlt="beach" audioSrc="/assets/ambient-sounds/waves.mp3" />
 
-          <Card imageSrc="/assets/images/rain.png" imageAlt="rain" audioSrc="/assets/ambient-sounds/rain.mp3" />
+          <Card imageSrc="/assets/images/office.png" imageAlt="office" audioSrc="/assets/ambient-sounds/office.mp3" />
 
           <Card imageSrc="/assets/images/coffee.png" imageAlt="coffee" audioSrc="/assets/ambient-sounds/coffee-shop.mp3" />
+
+          <Card imageSrc="/assets/images/metro.png" imageAlt="metro" audioSrc="/assets/ambient-sounds/train-station.mp3" />
 
           <Card imageSrc="/assets/images/city.png" imageAlt="city" audioSrc="/assets/ambient-sounds/city.mp3" />
 

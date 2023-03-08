@@ -22,7 +22,7 @@ function Lofi(props) {
       }}
     >
 
-      <img className="w-[300px] h-[260px] rounded-lg object-cover" src={props.imageSrc} alt={props.imageAlt} />
+      <img className="w-[300px] h-[160px] md:h-[250px] lg:h-[260px] rounded-lg object-cover" src={props.imageSrc} alt={props.imageAlt} />
 
       <div className="absolute flex p-2 w-full">
         <input type="range" max="1" min="0" step="0.01" defaultValue="0.05"
