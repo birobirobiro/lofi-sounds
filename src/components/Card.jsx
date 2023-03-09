@@ -28,6 +28,7 @@ function Card(props) {
         <input type="range" max="1" min="0" step="0.01" defaultValue="0.05"
           className="relative z-2 w-full bottom-10"
           onChange={(e) => setVolume(e.target.value)}
+          onClick={(e) => e.stopPropagation()}
         />
       </div>
     </div>
