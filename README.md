@@ -1,6 +1,6 @@
 # lofi-sounds
 
-<img src=".github/preview.png" />
+<img src=".github/preview.jpg" />
 
 ## Technology stack
 
