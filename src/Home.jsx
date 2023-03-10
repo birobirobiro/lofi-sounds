@@ -1,5 +1,4 @@
 import { Headphones } from "@phosphor-icons/react";
-import { useEffect, useState } from "react";
 import { SiTailwindcss, SiVercel, SiReact } from "react-icons/si"
 import Card from "./components/Card";
 
@@ -54,11 +53,11 @@ function Home() {
         " >
           <Card imageSrc="/assets/images/lofi.png" imageAlt="lofi" audioSrc={audioSrc} />
 
+          <Card imageSrc="/assets/images/rain.png" imageAlt="rain" audioSrc="/assets/ambient-sounds/rain.mp3" />
+
           <Card imageSrc="/assets/images/forest.png" imageAlt="forest" audioSrc="/assets/ambient-sounds/forest.mp3" />
 
           <Card imageSrc="/assets/images/fireplace.png" imageAlt="fireplace" audioSrc="/assets/ambient-sounds/campfire.mp3" />
-
-          <Card imageSrc="/assets/images/rain.png" imageAlt="rain" audioSrc="/assets/ambient-sounds/rain.mp3" />
 
           <Card imageSrc="/assets/images/beach.png" imageAlt="beach" audioSrc="/assets/ambient-sounds/waves.mp3" />
 
