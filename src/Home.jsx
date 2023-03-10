@@ -51,23 +51,23 @@ function Home() {
         <section className="mx-auto grid grid-cols-2 gap-5 lg:grid-cols-3
         px-10 py-8
         " >
-          <Card imageSrc="/assets/images/lofi.png" imageAlt="lofi" audioSrc={audioSrc} title={imageAlt} />
+          <Card imageSrc="/assets/images/lofi.png" imageAlt="lofi" audioSrc={audioSrc} />
 
-          <Card imageSrc="/assets/images/rain.png" imageAlt="rain" audioSrc="/assets/ambient-sounds/rain.mp3" title={imageAlt} />
+          <Card imageSrc="/assets/images/rain.png" imageAlt="rain" audioSrc="/assets/ambient-sounds/rain.mp3" />
 
-          <Card imageSrc="/assets/images/forest.png" imageAlt="forest" audioSrc="/assets/ambient-sounds/forest.mp3" title={imageAlt} />
+          <Card imageSrc="/assets/images/forest.png" imageAlt="forest" audioSrc="/assets/ambient-sounds/forest.mp3" />
 
-          <Card imageSrc="/assets/images/fireplace.png" imageAlt="fireplace" audioSrc="/assets/ambient-sounds/campfire.mp3" title={imageAlt} />
+          <Card imageSrc="/assets/images/fireplace.png" imageAlt="fireplace" audioSrc="/assets/ambient-sounds/campfire.mp3" />
 
-          <Card imageSrc="/assets/images/beach.png" imageAlt="beach" audioSrc="/assets/ambient-sounds/waves.mp3" title={imageAlt} />
+          <Card imageSrc="/assets/images/beach.png" imageAlt="beach" audioSrc="/assets/ambient-sounds/waves.mp3" />
 
-          <Card imageSrc="/assets/images/office.png" imageAlt="office" audioSrc="/assets/ambient-sounds/office.mp3" title={imageAlt} />
+          <Card imageSrc="/assets/images/office.png" imageAlt="office" audioSrc="/assets/ambient-sounds/office.mp3" />
 
-          <Card imageSrc="/assets/images/coffee.png" imageAlt="coffee" audioSrc="/assets/ambient-sounds/coffee-shop.mp3" title={imageAlt} />
+          <Card imageSrc="/assets/images/coffee.png" imageAlt="coffee" audioSrc="/assets/ambient-sounds/coffee-shop.mp3" />
 
-          <Card imageSrc="/assets/images/metro.png" imageAlt="metro" audioSrc="/assets/ambient-sounds/train-station.mp3" title={imageAlt} />
+          <Card imageSrc="/assets/images/metro.png" imageAlt="metro" audioSrc="/assets/ambient-sounds/train-station.mp3" />
 
-          <Card imageSrc="/assets/images/city.png" imageAlt="city" audioSrc="/assets/ambient-sounds/city.mp3" title={imageAlt} />
+          <Card imageSrc="/assets/images/city.png" imageAlt="city" audioSrc="/assets/ambient-sounds/city.mp3" />
 
         </section>
 
