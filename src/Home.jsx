@@ -23,7 +23,7 @@ function Home() {
       <nav className="flex fixed w-full items-center p-5 justify-between border-slate-200 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 z-10">
 
         <div className="flex items-center gap-4">
-          <a className="flex items-center gap-4" href="#">
+          <a className="flex items-center gap-4" href="#" title="home">
             <Headphones size={32} />
 
             <h1 className="font-bold">lofi-sounds</h1>
@@ -31,8 +31,8 @@ function Home() {
         </div>
 
         <ul className="flex">
-          <a href="https://birobirobiro.dev"><li>
-            <img src="/assets/logo.svg" alt="logo biro" width={30} height={30} /></li></a>
+          <a href="https://birobirobiro.dev" title="site-biro"><li>
+            <img src="/assets/logo.svg" alt="logo biro" width={30} height={30} title="logo-biro" /></li></a>
         </ul>
       </nav>
 
@@ -92,24 +92,24 @@ function Home() {
 
             Build with
 
-            <a href="https://tailwindcss.com/" target="_blank">
+            <a href="https://tailwindcss.com/" target="_blank" title="TailwindCSS">
               <SiTailwindcss
                 size={20}
-                title="Tailwind CSS"
+
               />
             </a>
 
-            <a href="https://vercel.com/" target="_blank">
+            <a href="https://vercel.com/" target="_blank" title="Vercel">
+
               <SiVercel
                 size={18}
-                title="Vercel"
               />
             </a>
 
-            <a href="https://reactjs.org/" target="_blank">
+            <a href="https://reactjs.org/" target="_blank" title="React">
               <SiReact
                 size={20}
-                title="React"
+
               />
             </a>
 
