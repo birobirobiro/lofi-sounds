@@ -4,7 +4,7 @@ import useAudio from "../hooks/useAudio";
 function Card(props) {
   const [isClicked, setIsClicked] = useState(false);
   const [volume, setVolume] = useState(0.08);
-  const audio = useAudio(props.audioSrc, { volume });
+  const audio = useAudio(props.audioSrc, { volume, loop: true });
 
   return (
     <div
