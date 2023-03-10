@@ -21,6 +21,7 @@ function Card(props) {
         className="w-[300px] h-[160px] md:h-[250px] lg:h-[260px] rounded-lg object-cover"
         src={props.imageSrc}
         alt={props.imageAlt}
+        title={props.imageAlt}
       />
 
       <div className="absolute flex p-2 w-full">
